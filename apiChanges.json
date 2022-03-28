@@ -1,0 +1,12 @@
+{
+	"accountOwnerEmail": {
+		"aws-microaccount-dev": "aws-account-owner-dev@email.com",
+		"aws-microaccount-qa": "aws-account-owner-qa@email.com"
+	},
+	"alertTypes": {
+		"cpu": "usage_active",
+		"mem": "used_percent",
+		"disk": "used_percent"
+	},
+	"alertThresholds": [30, 40, 50, 60, 70, 80, 90]
+}
