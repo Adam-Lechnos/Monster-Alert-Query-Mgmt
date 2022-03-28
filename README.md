@@ -10,7 +10,7 @@ Manage Quotes Cloud pre-written Monster database alerts for pipeline deployment 
 #### Pre-requisites
 * Python 3.7
 * Monster Alerts API Keys for Quotes Cloud
-* (apiChanges)[./apiChanges.json] JSON file.
+* [apiChanges](./apiChanges.json) JSON file.
 
 #### Usage
 
@@ -18,7 +18,7 @@ Manage Quotes Cloud pre-written Monster database alerts for pipeline deployment 
 `aws-alias-mgmt -h` [`--help`]
 
 ##### Parsed Variables
-The script will dynamically parse and assign variables to dictionaires and lists, sourced in from a JSON file containing multiple objects. (see the apiChanges file as an example). This source file is where the alerting configuration paramters are maintained to enable a more dynamic configuration base.
+The script will dynamically parse and assign variables to dictionaires and lists, sourced in from a JSON file containing multiple objects. (see the [apiChanges](./apiChanges.json) file as an example). This source file is where the alerting configuration paramters are maintained to enable a more dynamic configuration base.
 
 ##### Options
 
