@@ -10,7 +10,7 @@ Manage Quotes Cloud pre-written Monster database alerts for pipeline deployment 
 #### Pre-requisites
 * Python 3.7
 * Monster Alerts API Keys for Quotes Cloud
-* apiChanges JSON file.
+* (apiChanges)[./apiChanges.json] JSON file.
 
 #### Usage
 
