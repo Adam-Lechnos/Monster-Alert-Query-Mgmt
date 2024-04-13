@@ -2,7 +2,7 @@
 Create, check, and manage a large set of Monster Alert queries.
 
 #### Description
-Manage Quotes Cloud pre-written Monster database alerts for pipeline deployment alerting thresholds. Each pre-written query corresponds to a possible subscription to an alerting filter contingent upon the end-user's specified threshold paramters, values, and target AWS account.
+Manage pre-written Monster database alerts for pipeline deployment alerting thresholds. Each pre-written query corresponds to a possible subscription to an alerting filter contingent upon the end-user's specified threshold parameters, values, and target AWS account.
  
 #### Intended Audience
 * Devops
@@ -18,7 +18,7 @@ Manage Quotes Cloud pre-written Monster database alerts for pipeline deployment 
 `aws-alias-mgmt -h` [`--help`]
 
 ##### Parsed Variables
-The script will dynamically parse and assign variables to dictionaires and lists, sourced in from a JSON file containing multiple objects. (see the [apiChanges](./apiChanges.json) file as an example). This source file is where the alerting configuration paramters are maintained to enable a more dynamic configuration base.
+The script will dynamically parse and assign variables to dictionaries and lists, sourced from a JSON file containing multiple objects. (see the [apiChanges](./apiChanges.json) file as an example). This source file is where the alerting configuration parameters are maintained to enable a more dynamic configuration base.
 
 ##### Options
 
